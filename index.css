@@ -1,0 +1,132 @@
+body{
+ margin:0;
+ padding: 0;
+ background: #450920;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+
+.name{
+    width: 100%;
+    height: 300px;
+    background: #A53860;
+    transform: skewY(-5deg);
+}
+
+
+.name .content h1 {
+    transform: skewY(+10deg);
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+}
+
+
+.name .content {
+    color: blanchedalmond;
+    font-family: 'Moon Dance', cursive;
+    font-weight: bolder;
+    font-size: 65px;
+    transform: skewY(-5deg);
+    margin-bottom: 0;
+}
+
+.name .content.p1 {
+    color: rgb(126, 26, 220);
+    font-family: 'Moon Dance', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+    transform: skewY(+5deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.name .img{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    transform: skewY(+5deg);
+    overflow: hidden;
+}
+
+.name .img img{
+    width: 178px ;
+    height: 180px; 
+}
+.info {
+    width: 90%;
+    height: auto;
+    background: whitesmoke;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 20px;
+
+    
+    }
+
+ .info .TituloSeccion{
+        color: #A53860;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 2px white solid;
+        
+
+    }
+.info .TituloInfo{
+    color: #450920;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+    
+
+.info .infoinfo {
+    color: #450920;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+    
+}
+
+.info .span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: blueviolet;
+    color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5%;
+}
+
+section h2{
+    color: #FF1B1C;
+}
+
+.video h1{
+    color: beige;
+    font-family: 'Moon Dance', cursive;
+}
+   
